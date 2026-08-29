@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# JupyterLite build
+_output/
+*.doit.db
+
+# pretrained / trained weights stay local (downloaded on first use by practice-notebooks/models/load_models.py)
+**/models/*.pt
+**/models/*.pth
