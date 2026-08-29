@@ -1,9 +1,16 @@
 >#### Course Material & Practical Sessions
 
 # 3D Deconvolution Microscopy
-*Daniel Sage — Biomedical Imaging Group, École Polytechnique Fédérale de Lausanne (EPFL)*
-
+<hr>
 <img src="practice-notebooks/assets/epfl-center-for-imaging.svg" alt="EPFL Center for Imaging" height="50" align="right"/>
+
+
+*Daniel Sage
+Center for Imaging
+Biomedical Imaging Group
+École Polytechnique Fédérale de Lausanne (EPFL)*
+<hr>
+
 
 **Important note.** This repository contains the material of the workshop **3D Deconvolution Microscopy** given by Daniel Sage (EPFL): the slides of the lecture and two practical sessions. It is a direct complement to the in-class course; it is not self-teaching material.
 
@@ -15,16 +22,16 @@ The practical sessions have one goal: practice deconvolution on simulated and re
 
 ## Practical session — DeconvolutionLab2 (Fiji)
 
-- Download Fiji: [`Fiji`](https://fiji.sc)
+- Download [Fiji](https://fiji.sc)
 - Instructions: [`Practice-Deconvolution.pdf`](practice-deconvolutionlab2/Practice-Deconvolution.pdf)
 - Reference: [`DeconvolutionLab2.pdf`](practice-deconvolutionlab2/DeconvolutionLab2.pdf), [website](http://bigwww.epfl.ch/deconvolution/deconvolutionlab2/)
 - Installation: copy `DeconvolutionLab_2-2.0.0.jar` and `PSF_Generator.jar` into the `plugins/` folder of Fiji, restart Fiji. `FFTW.zip` is optional (faster FFT).
 - Images: [`practice-images/`](practice-deconvolutionlab2/practice-images/) — 2-D and 3-D images, PSFs
 
-## Practical session 2 — Python notebooks
+## Practical session — Python notebooks
 
 - `deconvolution_assessment/assessment.ipynb` — metrics, display, noise, PSF, regularized inverse filter
-- `deconvolution_pnp/pnp.ipynb` — Plug-and-Play deconvolution with deepinv (local only, needs `torch`)
+- `deconvolution_pnp/pnp.ipynb` — Plug-and-Play deconvolution with deepinv (local only: `torch`, `deepinv`)
 - `deconvolution_utils/` — shared modules: simulation, display, metrics
 
 ### In the browser (JupyterLite)
@@ -32,7 +39,7 @@ The practical sessions have one goal: practice deconvolution on simulated and re
 
 [Open JupyterLite](https://dasv74.github.io/workshop-deconvolution/lab/index.html) → `deconvolution_assessment/assessment.ipynb`
 
-Nothing to install. The first cell takes about a minute (loading numpy, scipy, scikit-image); if an import fails right after the page opened, run the cell again.
+Nothing to install. The first cell takes about a minute (loading numpy, scipy, scikit-image). Only `assessment.ipynb` runs in the browser: `torch` does not exist for Pyodide, so `pnp.ipynb` must be run locally.
 
 ### Locally
 
