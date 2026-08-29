@@ -5,7 +5,7 @@
 
 <img src="practice-notebooks/assets/epfl-center-for-imaging.svg" alt="EPFL Center for Imaging" height="50" align="right"/>
 
-**Important note.** This repository contains the material of the workshop **3D Deconvolution Microscopy** given by Daniel Sage (EPFL): the slides of the lecture and two practical sessions. It is a direct complement to the in-class course, it does not replace it; it is not self-teaching material.
+**Important note.** This repository contains the material of the workshop **3D Deconvolution Microscopy** given by Daniel Sage (EPFL): the slides of the lecture and two practical sessions. It is a direct complement to the in-class course; it is not self-teaching material.
 
 The practical sessions have one goal: practice deconvolution on simulated and real microscopy images, and build a visual intuition of what it does.
 
